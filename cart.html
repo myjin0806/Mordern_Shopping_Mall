@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mordern Shopping Mall</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <!-- header -->
+  <header class="header">
+    <div class="inner">
+      <h1 class="logo" onclick="goToHome()">Mordern Shopping Mall</h1>
+    </div>
+  </header>
+    <!-- main -->
+    <main class="cart-list">
+      <!-- 자바스크립트로 추가 -->
+      <div id="cart-items">
+<!--         <div class="cart-item">
+          <input type="checkbox" class="item-select" checked>
+          제목 - 가격
+          이미지
+          <img src="" alt="" class="thum-small">
+        </div> -->
+      </div>
+      <p>
+        총 결제 금액: <span id="total">￦0</span>
+      </p>
+      <button class="clearBtn" onclick="clearCart()">장바구니 비우기</button>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+      <p>&copy; 2024 Modern Shopping Mall. All rights reserved.</p>
+    </footer>
+  <script src="/js/cart.js"></script>
+</body>
+</html>
