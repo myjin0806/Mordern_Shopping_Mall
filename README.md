@@ -6,7 +6,7 @@
 > 2024.11.19 - 2024.11.20
 
 ## 배포 링크
-> [Morden Shopping Mall](https://myjin0806.github.io/Mordern_Shopping_Mall/index.html)
+> [Morden Shopping Mall](https://myjin0806.github.io/mordern_shopping_mall/index.html)
 
 |  상품 목록 페이지                                                                                                   |
 | :---------------------------------------------------------------------------------------------------------------------- |
